@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-14T00:07:58.259Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7477001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.startSetUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Counting The Timer in Eggtimer",
+        "description": "",
+        "id": "countdown-the-timer;counting-the-timer-in-eggtimer",
+        "after": [
+          {
+            "result": {
+              "duration": 842002400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5750032700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the application",
+            "match": {
+              "location": "StepDefinitions.TimeCounterSteps.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1284001500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the time in \u002725\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002725\u0027",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.TimeCounterSteps.i_enter_the_time_in_seconds(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [9 seconds] but found [10 seconds]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat PageClass.TimeCounterPage.validateTimeCounter(TimeCounterPage.java:45)\r\n\tat StepDefinitions.TimeCounterSteps.i_validate_the_time_counter(TimeCounterSteps.java:21)\r\n\tat ✽.I validate the time counter(file:///E:/workspace/CodingTask/src/test/java/Features/TimeCounter.feature:8)\r\n",
+              "duration": 10637057500,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I validate the time counter",
+            "match": {
+              "location": "StepDefinitions.TimeCounterSteps.i_validate_the_time_counter()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Countdown The Timer",
+    "description": "",
+    "id": "countdown-the-timer",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/TimeCounter.feature",
+    "tags": [
+      {
+        "name": "@feature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

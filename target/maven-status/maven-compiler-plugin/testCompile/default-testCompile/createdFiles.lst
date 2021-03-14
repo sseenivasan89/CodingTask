@@ -1,0 +1,5 @@
+RunnerClass\TestRunner.class
+CodingTask\CodingTask\Test.class
+StepDefinitions\TimeCounterSteps.class
+PageClass\TimeCounterPage.class
+StepDefinitions\Hook.class
