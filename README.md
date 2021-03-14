@@ -19,7 +19,8 @@ mvn clean verify
 > Highlights
 > - Hooks
 > - Page Object Model
-> - Maven Cucumber Reporting - target\cucumber-report-html\cucumber-html-reports
+> - Screenshot on failure - \FailedScreenshots
+> - Maven Cucumber Reporting - \target\cucumber-report-html\cucumber-html-reports
 
 ### Sample Maven Cucumber Reporting
 
