@@ -4,7 +4,7 @@
 
 **Clone the project Directory**
 
-## Command Run the Project
+## Command To Run the Project
 
 ```
 mvn clean verify
@@ -18,7 +18,7 @@ mvn clean verify
 
 > Highlights
 > - Hooks
-> - Page Object Model
+> - Page Object Model with Page Factory Design
 > - Screenshot on failure - \FailedScreenshots
 > - Maven Cucumber Reporting - \target\cucumber-report-html\cucumber-html-reports
 
